@@ -10,7 +10,7 @@ if(isset($_POST['masuk'])){
 	if(ceklogin($email,$no_hp)){
 		echo "<script>window.location.href='user.php'</script>";
 	}else{
-		echo "gagal";
+		echo "gagalPisan";
 	}
 }
 
